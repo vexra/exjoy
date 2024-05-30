@@ -103,7 +103,7 @@ CREATE TABLE `system_info` (
 
 INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
 (1, 'name', 'Budget and Expense Tracker System - PHP'),
-(6, 'short_name', 'B&E Tracker'),
+(6, 'short_name', 'ExJoy'),
 (11, 'logo', 'uploads/1627606920_modeylogo.jpg');
 
 -- --------------------------------------------------------
