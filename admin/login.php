@@ -3,14 +3,14 @@
 <html lang="en" class="" style="height: auto;">
 <?php require_once('inc/header.php') ?>
 
-<body class="hold-transition login-page bg-navy">
+<body class="hold-transition login-page bg-success">
     <script>
     start_loader()
     </script>
     <h2 class="text-center mb-4 pb-3"><?php echo $_settings->info('name') ?></h2>
     <div class="login-box">
         <!-- /.login-logo -->
-        <div class="card card-outline card-primary">
+        <div class="card card-outline card-warning">
             <div class="card-body">
                 <p class="login-box-msg text-dark">Sign in to start your session</p>
 
@@ -33,7 +33,7 @@
                     </div>
                     <div class="row justify-conten-center">
                         <!-- /.col -->
-                        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                        <button type="submit" class="btn btn-warning btn-block">Sign In</button>
                         <!-- /.col -->
                     </div>
                 </form>
